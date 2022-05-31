@@ -1445,7 +1445,7 @@ Vue.component('page-nav',{
                             window.history.pushState({page:page}, null, this.url)
                         }
                     }
-//                    $("img").lazyload({effect:"fadeIn"})
+                    $("img").lazyload({effect:"fadeIn"})
                 }
 
                 if(this.navtype === 'comment' || this.navtype === 'authorComments'){
